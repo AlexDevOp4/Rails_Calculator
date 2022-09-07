@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   get "/calculator", to: "calculator#index"
+
+  root to: "calculator#index"
 end
